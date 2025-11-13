@@ -4,6 +4,7 @@ import path from 'path';
 import vitePluginForArco from '@arco-plugins/vite-react';
 
 export default defineConfig({
+  base: '/my-cloud-store-app/', // Add this line
   plugins: [
     react(),
     vitePluginForArco({
